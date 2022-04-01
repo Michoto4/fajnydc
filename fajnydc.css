@@ -97,10 +97,6 @@ html.theme-light .container-YkUktl {
   bottom: 81px !important;
 }
 
-.full-motion [class*=animator] {
-  transform: none !important;
-  transition: none !important;
-}
 
 .layer-86YKbF.baseLayer-W6S8cY {
   transform: scale(1) !important;

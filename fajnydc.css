@@ -36,7 +36,7 @@
   --backdrop-blur: 10px;
   --channel-height: 40px;
   --member-height: 54px;
-  --dm-height: 56px;
+  --dm-height: 16px;
   --scrollbar-background: rgb(255 255 255 / .05);
   --scrollbar-background-hover: rgb(255 255 255 / .1);
   --scrollbar-background-active: rgb(255 255 255 / .15);
@@ -97,6 +97,10 @@ html.theme-light .container-YkUktl {
   bottom: 81px !important;
 }
 
+.full-motion [class*=animator] {
+  transform: none !important;
+  transition: none !important;
+}
 
 .layer-86YKbF.baseLayer-W6S8cY {
   transform: scale(1) !important;
